@@ -1,0 +1,31 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #9dd9f9;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
