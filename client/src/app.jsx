@@ -9,6 +9,7 @@ import style from './style/app.css';
 import Topbar from './topbar.jsx';
 import MuiThemeProvider from '@material-ui/core/styles/muithemeprovider';
 import theme from './themes.jsx';
+import TextField from './textfield.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends React.Component {
 
   render () {
     return (
-    <div class="container">
+    <div className="container">
       <MuiThemeProvider theme={theme}>
       <Topbar/>
       </MuiThemeProvider>
